@@ -26,5 +26,8 @@ namespace Cinema.Models
 
         [Range(1, 10)]
         public int Rating { get; set; }
+
+        public string Description { get; set; }
+        public string Video { get; set; }
     }
 }

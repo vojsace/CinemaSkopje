@@ -122,7 +122,7 @@ namespace Cinema.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Image,Title,ReleaseDate,Genre,Rating")] Movie movie)
+        public async Task<IActionResult> Create([Bind("Id,Image,Title,ReleaseDate,Genre,Rating,Description,Video")] Movie movie)
         {
             if (ModelState.IsValid)
             {
@@ -154,7 +154,7 @@ namespace Cinema.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Image,Title,ReleaseDate,Genre,Rating")] Movie movie)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Image,Title,ReleaseDate,Genre,Rating,Description,Video")] Movie movie)
         {
             if (id != movie.Id)
             {

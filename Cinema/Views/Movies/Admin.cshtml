@@ -39,37 +39,49 @@
             <th>
                 @Html.DisplayNameFor(model => model.Movies[0].Rating)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Movies[0].Video)
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model.Movies)
         {
-            <tr>
-                <td>
-                    <img src="@Html.DisplayFor(modelItem => item.Image)" height="300" width="200" />
-                </td>
-                <td>
-                    <a asp-action="MovieDetails" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Title)</a>
-              
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.ReleaseDate)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Genre)
-                </td>
-                <td>
-                    <p>@Html.DisplayFor(modelItem => item.Rating) /10</p> 
-                </td>
-                <td>
+        <tr>
+            <td>
+                <img src="@Html.DisplayFor(modelItem => item.Image)" height="300" width="200" />
+            </td>
+            <td>
+                <a asp-action="MovieDetails" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Title)</a>
 
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
-                    <a asp-action="MovieDetails" asp-route-id="@item.Id">Details</a>
-                </td>
-            </tr>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReleaseDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                <p>@Html.DisplayFor(modelItem => item.Rating) /10</p>
+            </td>
+            <td>
+                <p>@Html.DisplayFor(modelItem => item.Description)</p>
+            </td>
+            <td>
+                <p>@Html.DisplayFor(modelItem => item.Video)</p>
+            </td>
+            <td>
+
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a asp-action="MovieDetails" asp-route-id="@item.Id">Details</a>
+            </td>
+        </tr>
         }
     </tbody>
 </table>
