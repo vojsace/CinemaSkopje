@@ -4500,7 +4500,6 @@ input[type="button"].btn-block {
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
   color: rgba(0, 0, 0, 0.9);
 }
-
 .navbar-dark .navbar-brand {
   color: #fff;
 }
@@ -6579,7 +6578,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+    background-color: rgba(0, 0, 0, 0.97) !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
