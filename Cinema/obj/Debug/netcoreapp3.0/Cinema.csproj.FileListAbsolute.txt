@@ -153,7 +153,6 @@ C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Vi
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\Movies\Edit.cshtml.g.cs
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\Movies\Index.cshtml.g.cs
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\Movies\MovieDetails.cshtml.g.cs
-C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Cinema.csprojAssemblyReference.cache
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\bin\Debug\netcoreapp3.0\Microsoft.Web.Infrastructure.dll
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Cinema.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Cinema.MvcApplicationPartsAssemblyInfo.cache
@@ -197,3 +196,4 @@ C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Ar
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\Movies\Admin.cshtml.g.cs
+C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Cinema.csprojAssemblyReference.cache
