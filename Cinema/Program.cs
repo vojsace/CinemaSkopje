@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Cinema.Data;
 using Cinema.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +25,7 @@ namespace Cinema
                 try
                 {
                     SeedData.Initialize(services);
+                   
                 }
                 catch (Exception ex)
                 {

@@ -17,12 +17,12 @@ namespace Cinema.Models
                     DbContextOptions<CinemaContext>>()))
             {
                 // Look for any movies.
-                if (context.Movie.Any())
+                if (context.Movies.Any())
                 {
                     return;   // DB has been seeded
                 }
 
-                context.Movie.AddRange(
+                context.Movies.AddRange(
                     new Movie
                     {
                         Image = "https://resizing.flixster.com/t1FwiRY3Si5W6wVqBxhYDuOyyqc=/fit-in/200x296.2962962962963/v1.bTsxMzIzMTg2MztqOzE4MzMzOzEyMDA7NjA3Mjs5MDAw",
@@ -55,6 +55,35 @@ namespace Cinema.Models
                       }
 
 
+                );
+                context.SaveChanges();
+
+                if (context.Halls.Any())
+                {
+                    return;   // DB has been seeded
+                }
+
+            context.Halls.AddRange(
+            new Hall
+            {
+                HallName = "Hall 1",
+                NumSeats = 50
+            },
+            new Hall
+            {
+                HallName = "Hall 2",
+                NumSeats = 75
+            },
+            new Hall
+            {
+                HallName = "Hall 3",
+                NumSeats = 85
+            },
+            new Hall
+            {
+                HallName = "Hall 4",
+                NumSeats = 100
+            }
                 );
                 context.SaveChanges();
             }

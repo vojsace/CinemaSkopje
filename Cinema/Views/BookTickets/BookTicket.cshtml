@@ -1,0 +1,43 @@
+﻿@model Cinema.Models.BookTicket
+
+@{
+    ViewData["Title"] = "BookTicket";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>BookTicket</h1>
+
+<div>
+    <h4>BookTicket</h4>
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Hall)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Movie)
+                </th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => Model.Hall.HallName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => Model.Movie.Title)
+                    </td>
+                    <td>
+                        <h4>Avaliable seats: @Html.DisplayFor(modelItem => Model.Hall.NumSeats)</h4>
+                    </td>
+
+                </tr>
+        </tbody>
+</div>
+<div>
+    <a asp-controller="Movies" asp-action="Index">Back to List</a>
+</div>

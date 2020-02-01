@@ -197,3 +197,9 @@ C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Ar
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\Movies\Admin.cshtml.g.cs
 C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Cinema.csprojAssemblyReference.cache
+C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\BookTickets\Create.cshtml.g.cs
+C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\BookTickets\Delete.cshtml.g.cs
+C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\BookTickets\Details.cshtml.g.cs
+C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\BookTickets\Edit.cshtml.g.cs
+C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\BookTickets\Index.cshtml.g.cs
+C:\Users\Vojce\Desktop\MVC Proekt\Cinema\Cinema\obj\Debug\netcoreapp3.0\Razor\Views\BookTickets\BookTicket.cshtml.g.cs

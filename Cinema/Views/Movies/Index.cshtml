@@ -59,7 +59,7 @@
                     <p>@Html.DisplayFor(modelItem => item.Rating) /10</p> 
                 </td>
                 <td>
-                    <a asp-action="MovieDetails" asp-route-id="@item.Id">Book Tickets</a>
+                    <a asp-controller="BookTickets" asp-action="BookTicket" asp-route-id="@item.Id">Book Tickets</a>
                 </td>
             </tr>
         }

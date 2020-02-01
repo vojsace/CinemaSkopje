@@ -29,5 +29,7 @@ namespace Cinema.Models
 
         public string Description { get; set; }
         public string Video { get; set; }
+
+        public ICollection<BookTicket> BookTickets { get; set; }
     }
 }
